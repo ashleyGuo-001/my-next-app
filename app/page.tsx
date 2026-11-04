@@ -14,6 +14,8 @@ export default function Home() {
         />
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+            test-env
+            <br />
             这是我部署的第一个全栈应用
             <br />
             To get started, edit the{" "}
