@@ -12,3 +12,11 @@ export function GET(request: Request){
     // 或者你也可以继续用 Next.js 封装的 NextResponse：
     // return NextResponse.json({ ok: true });
 }
+export async function POST(request: Request){
+    const body = await request.json()
+
+    return Response.json({
+        receivedData: body,
+        message:'POST 请求接收成功'
+    })
+}
